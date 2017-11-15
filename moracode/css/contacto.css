@@ -1,0 +1,130 @@
+ * {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ #map {
+   width: 600px;
+   height: 500px;
+ }
+
+section.contacto {
+ 	background: url(../img/fondo-contacto.jpg);
+ 	margin-bottom: 20px;
+ }
+
+ .caja-formulario {
+ 	background: rgba(255,255,255,0.6);
+ 	height: 100%;
+ }
+
+.caja-formulario,
+#map {
+ 	margin-top: 20px; 
+ 	margin-bottom: 20px;
+ }
+
+.caja-formulario {
+	margin-bottom: 0px;
+}
+
+.caja-formulario {
+	border-radius: 1px;
+}
+
+form {
+ 	display: block;
+ 	text-align: left;
+ 	width: 100%;
+ 	height: 100%;
+ 	font-family: 'Open Sans', sans-serif;
+ 	padding: 20px 0px;
+}
+
+label {
+ 	display: block;
+ 	width: 100%;
+ 	color: #000;
+ 	font-size: 1em;
+ 	font-weight: bold;
+ 	vertical-align: left;
+}
+
+input {
+ 	color: #fff;
+ 	border: none;
+ 	padding: 0px 10px; 
+ 	background: #FF0066;
+ 	font-size: 1.5em;
+ 	line-height: 30px;
+ 	border-radius: 1px;
+ 	width: 100%;
+ 	outline: none;
+ 	border-bottom: 4px solid #CC3366;
+ 	margin-bottom: 10px;
+ 	transition: all 500ms ease;
+}
+
+label.nombre {
+	margin-top: 10px;
+}
+
+textarea {
+	color: #fff;
+ 	border: none;
+ 	padding: 0px 10px; 
+ 	background: #FF0066;
+ 	width: 100%;
+ 	height: 100px;
+ 	max-width: 600px;
+ 	min-width: 264px;
+ 	outline: none;
+ 	line-height: 30px;
+ 	border-bottom: 5px solid #CC3366;
+ 	margin-bottom: 10px;
+ 	font-size: 1.5em;
+ 	transition: all 300ms ease;
+}
+
+input:focus,
+textarea:focus {
+	border-bottom: 0px solid#CC3366;
+}
+
+form h2 {
+	margin-bottom: 10px;
+	text-align: center;
+	display: inline-block;
+ 	color: #fff;
+ 	padding: 10px 20px;
+ 	background: #FF0066;
+ 	transition: all 300ms ease;
+}
+
+form p {
+	margin-bottom: 5px;
+	font-size: 1em;
+}
+
+input[type="checkbox"] {
+	background: #FF0066;
+	border: none;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 30px;
+	height: 30px;
+}
+
+label.declaracion {
+	display: inline-block;
+	text-align: center;
+}
+
+input[type="submit"] {
+	padding: 5px 0px;
+	margin-top: 10px;
+}

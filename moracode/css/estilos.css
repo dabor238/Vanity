@@ -1,0 +1,273 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #f2f2f2;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+span {
+	margin: 7px;
+}
+
+.imagenes .thumb {
+	margin-bottom: 20px;
+}
+
+/*section.index {
+	background: #FF0066;
+}*/
+
+/* Header */
+
+header {
+	margin-bottom: 20px;
+}
+
+header .logo-menu {
+	background: white;
+}
+
+header .logo-menu .logo h2 {
+		font-family: 'Lobster', cursive;
+		font-size: 36px;
+		color: #FF0066;
+		padding: 40px 0px;
+}
+
+header .logo-menu .contacto p {
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+	color: #000;
+	padding: 20px 0px;
+	font-size: 24px;
+	cursor: pointer;
+	transition: all 300ms ease;
+}
+
+header .logo-menu .contacto p:hover {
+	color: #FF0066;
+}
+
+header .submenu {
+	background: #FF0066;
+}
+
+header .submenu a {
+	text-decoration: none;
+	padding: 26px 10px;
+	display: inline-block;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	transition: border-bottom 200ms ease;
+}
+
+header .submenu a:hover {
+	border-bottom: 4px solid #fff;
+	padding-bottom: 22px; 
+}
+
+.imagenes {
+	padding-top: 20px;
+	margin-top: 20px;
+	border-top: 5px solid #FF0066;
+	border-bottom: 5px solid #FF0066;
+	margin-bottom: 20px;
+}
+
+.imagenes .thumb {
+	height: 400px;
+	margin-bottom: 20px;
+}
+
+.imagenes .thumb img {
+	width: 100%;
+	vertical-align: top;
+}
+
+.imagenes .slide1 {
+	position: relative;
+	background: url(../img/slide1.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 100%;
+}
+
+.imagenes .slide2 {
+	background: url(../img/slide2.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 100%;
+}
+
+.imagenes .slide3 {
+	background: url(../img/slide3.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+}
+
+.imagenes .slide4 {
+	background: url(../img/slide4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.concepto {
+	background: rgba(255,255,255,0.6);
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.concepto:hover > a {
+	margin-top: 50%;
+}
+
+.concepto h2 {
+	text-align: center;
+	margin: 5px 0px;
+	color: #FF0066;
+}
+
+.concepto p {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.concepto a {
+	text-align: center;
+	display: block;
+	padding: 10px 0px;
+	background: #FF0066;
+	color: #fff;
+	box-shadow: 0px 5px 0px #CC3366;
+	transition: all 300ms ease;
+}
+
+.concepto a:focus {
+	box-shadow: 0px 0px 0px #CC3366;
+}
+
+/* Footer */
+footer {
+	background: #fff;
+}
+
+footer .logo h2 {
+	font-family: 'Lobster', cursive;
+	font-size: 36px;
+	color: #FF0066;
+	padding: 40px 0px;
+	text-align: right;
+}
+
+footer .nav-footer a {
+	display: block;
+	padding: 19px 0px;
+	text-decoration: none;
+	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 1px solid #FF0066;
+	margin-bottom: 35px;
+	padding-left: 10px;
+	transition: border-bottom 1s ease;
+	transition: padding-left 500ms ease;
+}
+
+footer .nav-footer a:hover {
+	border-bottom: 4px solid #FF0066;
+	padding-bottom: 16px;
+	padding-left: 50px;
+}
+
+footer .derechos-reservados {
+	background: #FF0066;
+
+}
+
+footer .derechos-reservados h4.copyright {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	text-align: center;
+	padding: 20px 0px;
+	border-bottom: 5px solid #CC3366;
+}
+
+footer .moracode {
+	font-weight: 300;
+	background: #FF0066;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	padding: 20px;
+}
+
+footer span.moracode {
+	font-family: 'Indie Flower', cursive;
+	color: #000;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+/* Media Queris */
+
+@media screen and (max-width:1024px) {
+	header .logo-menu .contacto p {
+		font-size: 18px;
+		text-align: left;
+	}
+}
+
+@media screen and (max-width:1300px) {
+	footer .logo h2 {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:767px) {
+	header .logo-menu .contacto p {
+		margin: 15px;
+	}
+}
+
+@media screen and (max-width:647px) {
+	header .logo-menu .contacto p {
+		text-align: center;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:647px) {
+	header .logo-menu .contacto p {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:647px) {
+	header .logo-menu .contacto p {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:345px) {
+	header .logo-menu .contacto p.correo {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width:695px) {
+	footer .moracode {
+		display: none;
+	}
+}
